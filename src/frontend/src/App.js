@@ -11,7 +11,7 @@ import {
     Badge,
     Tag,
     Avatar,
-    Radio, Popconfirm, Image, Divider
+    Radio, Popconfirm, Image
 } from 'antd';
 
 import {
@@ -222,14 +222,10 @@ function App() {
                 </div>
             </Content>
             <Footer style={{textAlign: 'center'}}>
-                <Divider>
-                    <a
-                        rel="noopener noreferrer"
-                        target="_blank"
-                        href="https://nextbiginnovations.com">
-                        NextBig Innovations
-                    </a>
-                </Divider>
+               <Image
+                   width={150}
+                   src="https://user-images.githubusercontent.com/85147326/120268155-4e8fb300-c273-11eb-92eb-e03dee5ed55c.jpg"
+               />
             </Footer>
         </Layout>
     </Layout>
