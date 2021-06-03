@@ -11,7 +11,7 @@ import {
     Badge,
     Tag,
     Avatar,
-    Radio, Popconfirm, Image
+    Radio, Popconfirm, Image, Divider
 } from 'antd';
 
 import {
@@ -226,6 +226,13 @@ function App() {
                    width={150}
                    src="https://user-images.githubusercontent.com/85147326/120268155-4e8fb300-c273-11eb-92eb-e03dee5ed55c.jpg"
                />
+            <Divider>
+                <a
+                    target="_blank"
+                    href="https://amigoscode.com/courses/full-stack-spring-boot-react/lectures/31136128">
+                    Click here to access Fullstack Spring Boot and React for professionals
+                </a>
+            </Divider>
             </Footer>
         </Layout>
     </Layout>
